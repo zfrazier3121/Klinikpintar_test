@@ -1,0 +1,212 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-12-14T12:43:30.723Z",
+    "end": "2023-12-14T12:44:19.942Z",
+    "duration": 49219,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ec5162c4-c656-4d31-90b2-810ccfb15743",
+      "title": "",
+      "fullFile": "c:\\Users\\zfraz\\Klinikpintar_test\\klinik_pintar_test.js",
+      "file": "\\klinik_pintar_test.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+          "title": "Klinik Pintar Site Test",
+          "fullFile": "c:\\Users\\zfraz\\Klinikpintar_test\\klinik_pintar_test.js",
+          "file": "\\klinik_pintar_test.js",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook: codeceptjs.beforeSuite in \"Klinik Pintar Site Test\"",
+              "fullTitle": "Klinik Pintar Site Test \"before all\" hook: codeceptjs.beforeSuite in \"Klinik Pintar Site Test\"",
+              "timedOut": false,
+              "duration": 1,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteSetup(suite)",
+              "err": {},
+              "uuid": "3cf8067b-faec-462a-af73-ed75784fe36d",
+              "parentUUID": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"before each\" hook: codeceptjs.before in \"Klinik Pintar Site Test\"",
+              "fullTitle": "Klinik Pintar Site Test \"before each\" hook: codeceptjs.before in \"Klinik Pintar Site Test\"",
+              "timedOut": false,
+              "duration": 1956,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.setup(suite)",
+              "err": {},
+              "uuid": "55b80ea9-b79a-4447-ba24-6ab42ad67954",
+              "parentUUID": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook: codeceptjs.afterSuite in \"Klinik Pintar Site Test\"",
+              "fullTitle": "Klinik Pintar Site Test \"after all\" hook: codeceptjs.afterSuite in \"Klinik Pintar Site Test\"",
+              "timedOut": false,
+              "duration": 0,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.suiteTeardown(suite)",
+              "err": {},
+              "uuid": "c68cd5a9-856c-48ed-9123-d44e64efe3fd",
+              "parentUUID": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+              "isHook": true,
+              "skipped": false
+            },
+            {
+              "title": "\"after each\" hook: finalize codeceptjs in \"Klinik Pintar Site Test\"",
+              "fullTitle": "Klinik Pintar Site Test \"after each\" hook: finalize codeceptjs in \"Klinik Pintar Site Test\"",
+              "timedOut": false,
+              "duration": 446,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "scenario.teardown(suite)",
+              "err": {},
+              "uuid": "8c711fec-494f-48c6-a39d-010ad4017a2c",
+              "parentUUID": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "1. Verify Homepage",
+              "fullTitle": "Klinik Pintar Site Test: 1. Verify Homepage",
+              "timedOut": false,
+              "duration": 5696,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.amOnPage('/');\n    I.see(\"Menghubungkan kesehatan Indonesia melalui jaringan klinik terstandarisasi\");",
+              "err": {},
+              "uuid": "57d29cf7-8ded-4111-b00c-57960c36a749",
+              "parentUUID": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "2. Navigate Patient Page",
+              "fullTitle": "Klinik Pintar Site Test: 2. Navigate Patient Page",
+              "timedOut": false,
+              "duration": 8726,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.amOnPage('/');\n    I.click(\"//span[contains(text(),'Lihat layanan pasien kami')]\");\n    I.wait(3);",
+              "err": {},
+              "uuid": "8a64eed3-54c9-49ba-93f0-58e4ad1dc3c2",
+              "parentUUID": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "3. Submit Form with Invalid Credentials (invalid phone number)",
+              "fullTitle": "Klinik Pintar Site Test: 3. Submit Form with Invalid Credentials (invalid phone number)",
+              "timedOut": false,
+              "duration": 27551,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "I }) => {\n    I.amOnPage(\"https://pasien.klinikpintar.id/clinic/5e223a63be12b1026d1231f8/reservation?service=62e173b6d0e308000946bfef\"); \n   \n    I.selectOption(\"Layanan\", \"Poli Umum - Klinik Permata Bunda\"); \n   \n    I.fillField(\"#name\", \"Joe Blow\");\n   \n    I.click(\"//body/div[@id='__nuxt']/div[@id='__layout']/div[1]/section[1]/div[1]/form[1]/div[5]/div[2]/div[1]/div[1]/div[1]/input[1]\");\n    I.click(\"//button[contains(text(),'2023')]\");\n    I.click(\"//body/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/i[1]\");\n    I.click(\"//body/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/i[1]\");\n    I.click(\"//body/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]/i[1]\");\n    I.click(\"//div[contains(text(),'1997')]\");\n    I.click(\"//div[contains(text(),'Sep')]\");\n    I.click(\"//tbody/tr[2]/td[7]/div[1]\");\n   \n    I.click(\"//body/div[@id='__nuxt']/div[@id='__layout']/div[1]/section[1]/div[1]/form[1]/div[5]/div[3]/span[1]/div[1]/div[1]/div[1]/div[1]/div[1]/input[1]\");\n    I.fillField(\"//label[contains(text(),'Nomor Telepon')]\", \"1\");\t\t//Invalid phone number\t\t\t\t\t\t\t\t\n    I.click(\"//body/div[@id='__nuxt']/div[@id='__layout']/div[1]/section[1]/div[1]/form[1]/div[7]/span[1]/div[1]/div[1]/div[1]/div[1]/input[1]\");\n    I.click(\"//button[contains(text(),'23')]\");\n    \n    I.selectOption(\"#appointment-time\", value=\"62e178b55255a20008994e50\");\n\tI.wait(5);\n\tI.click(\"//body[1]/div[1]/div[1]/div[1]/section[1]/div[1]/form[1]/div[7]/div[2]/div[35]\");\n\t\n\tI.click(\"//button[@id='next_inquiry']\");\n\t\n\tI.wait(5);\n\t\n\tI.click(\"//button[contains(text(),'Submit Layanan')]\"); \t\t\t//Error message: \"Mohon maaf terjadi kesalahan pada sistem. Mohon hubungi\"\n\t\n\tI.wait(10);",
+              "err": {},
+              "uuid": "3d487ef2-27cd-448c-96c4-3f1869e8a6ee",
+              "parentUUID": "0a4b3f92-5f22-4021-bcab-aeef1915dd65",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "57d29cf7-8ded-4111-b00c-57960c36a749",
+            "8a64eed3-54c9-49ba-93f0-58e4ad1dc3c2",
+            "3d487ef2-27cd-448c-96c4-3f1869e8a6ee"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 41973,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 0
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 0
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "10.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {},
+      "version": "6.2.0"
+    }
+  }
+}
